@@ -1,0 +1,29 @@
+﻿hand_no,street,player,hole,board,pot_before,to_call,stack_hero,stack_opp,action,amount,equity,result,reward,hand_label,flush_draw,straight_draw,overcards
+1,preflop,Hola Amigos,2♥ 6♣,—,15,5,995,990,call,5,,,-45.0,High,False,,0
+1,preflop,Daniel Negreanu,5♦ 6♠,—,20,0,990,990,bet,10,0.42,,45.0,High,False,,0
+1,preflop,Hola Amigos,2♥ 6♣,—,30,10,990,980,call,10,,,-45.0,High,False,,0
+1,flop,Daniel Negreanu,5♦ 6♠,6♥ 7♦ J♦,40,0,980,980,bet,10,0.6041666666666666,,45.0,One Pair,False,,0
+1,flop,Hola Amigos,2♥ 6♣,6♥ 7♦ J♦,50,10,980,970,call,10,,,-45.0,One Pair,False,,0
+1,turn,Daniel Negreanu,5♦ 6♠,6♥ 7♦ J♦ 4♣,60,0,970,970,bet,15,0.6215,,45.0,One Pair,False,OESD,0
+1,turn,Hola Amigos,2♥ 6♣,6♥ 7♦ J♦ 4♣,75,15,970,955,call,15,,,-45.0,One Pair,False,,0
+1,river,Daniel Negreanu,5♦ 6♠,6♥ 7♦ J♦ 4♣ A♦,90,0,955,955,bet,22,0.4909090909090909,,45.0,One Pair,True,OESD,0
+1,river,Hola Amigos,2♥ 6♣,6♥ 7♦ J♦ 4♣ A♦,112,22,955,933,fold,0,,,-45.0,One Pair,False,,0
+1,result,RESULT,,6♥ 7♦ J♦ 4♣ A♦,112,0,955,1045,win:Daniel Negreanu,0,,win,,,False,,0
+2,preflop,Daniel Negreanu,4♠ 8♠,—,15,5,1040,945,raise,12,0.4483333333333333,,-34.0,High,False,,0
+2,preflop,Hola Amigos,3♦ 10♦,—,32,17,945,1023,call,17,,,34.0,High,False,,0
+2,flop,Hola Amigos,3♦ 10♦,K♠ K♣ 10♣,49,0,928,1023,check,0,,,34.0,Two Pair,False,,0
+2,flop,Daniel Negreanu,4♠ 8♠,K♠ K♣ 10♣,49,0,1023,928,bet,12,0.28583333333333333,,-34.0,One Pair,False,,0
+2,flop,Hola Amigos,3♦ 10♦,K♠ K♣ 10♣,61,12,928,1011,call,12,,,34.0,Two Pair,False,,0
+2,turn,Hola Amigos,3♦ 10♦,K♠ K♣ 10♣ K♥,73,0,916,1011,bet,50,,,34.0,Full House,False,,0
+2,turn,Daniel Negreanu,4♠ 8♠,K♠ K♣ 10♣ K♥,123,50,1011,866,fold,0,0.27025,,-34.0,Trips,False,,0
+2,result,RESULT,,K♠ K♣ 10♣ K♥,123,0,989,1011,win:Hola Amigos,0,,win,,,False,,0
+3,preflop,Hola Amigos,7♥ 5♠,—,15,5,984,1001,call,5,,,-67.0,High,False,,0
+3,preflop,Daniel Negreanu,2♥ 3♦,—,20,0,1001,979,bet,10,0.3225,,67.0,High,False,,0
+3,preflop,Hola Amigos,7♥ 5♠,—,30,10,979,991,call,10,,,-67.0,High,False,,0
+3,flop,Daniel Negreanu,2♥ 3♦,K♥ 10♠ 2♣,40,0,991,969,bet,10,0.51875,,67.0,One Pair,False,,0
+3,flop,Hola Amigos,7♥ 5♠,K♥ 10♠ 2♣,50,10,969,981,call,10,,,-67.0,High,False,,0
+3,turn,Daniel Negreanu,2♥ 3♦,K♥ 10♠ 2♣ 9♠,60,0,981,959,bet,15,0.48075,,67.0,One Pair,False,,0
+3,turn,Hola Amigos,7♥ 5♠,K♥ 10♠ 2♣ 9♠,75,15,959,966,call,15,,,-67.0,High,False,,0
+3,river,Daniel Negreanu,2♥ 3♦,K♥ 10♠ 2♣ 9♠ A♣,90,0,966,944,bet,22,0.4313131313131313,,67.0,One Pair,False,,0
+3,river,Hola Amigos,7♥ 5♠,K♥ 10♠ 2♣ 9♠ A♣,112,22,944,944,call,22,,,-67.0,High,False,,0
+3,result,RESULT,,K♥ 10♠ 2♣ 9♠ A♣,134,0,922,1078,win:Daniel Negreanu,0,,win,,,False,,0
